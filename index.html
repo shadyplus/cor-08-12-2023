@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://pillsen.info/hy/dz_fr/cordis_t1/ -->
+<html data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui" name="viewport">
+      <link href="https://pillsen.info/hy/dz_fr/cordis_t1/favicon.ico" rel="shortcut icon" type="image/x-icon">
+      <title>Cordis</title>
+      <link href="./Cordis_files/styles.css" rel="stylesheet">
+      <link href="./Cordis_files/wheel-style.css" rel="stylesheet">
+      <style>
+         .hidden {
+         display: none !important;
+         }
+         .ac_footer {
+         position: relative;
+         text-align: center;
+         overflow: hidden;
+         padding: 50px 0;
+         color: #FFF;
+         width: 100%;
+         max-width: 1335px;
+         margin: 0 auto;
+         font-size: 20px;
+         }
+         .ac_footer ul li {
+         margin: 10px 0;
+         }
+         .ac_footer ul li:last-child {
+         margin-bottom: 50px;
+         }
+         .ac_footer a {
+         color: #FFF;
+         }
+         .ac_footer a:hover {
+         text-decoration: underline;
+         }
+         .ac_footer p {
+         text-align: center;
+         }
+         img[height="1"],
+         img[width="1"] {
+         display: none !important;
+         }
+         .inputCover {
+         position: relative;
+         display: block;
+         }
+         .tooltip {
+         display: none;
+         z-index: 99999;
+         position: absolute;
+         opacity: 1;
+         background-color: rgb(231, 76, 60);
+         border: 1px dashed black;
+         top: -15px;
+         right: 0;
+         border-radius: 3px;
+         color: #fff;
+         font-size: 15px;
+         padding: 2px 5px;
+         box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+         -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+         -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1)
+         }
+      </style>
+      <script>
+         var lazy = [];
+         
+         registerListener('load', setLazy);
+         registerListener('load', lazyLoad);
+         registerListener('scroll', lazyLoad);
+         registerListener('resize', lazyLoad);
+         
+         function setLazy() {
+         
+           document.getElementById('wrappcover').removeAttribute('class');
+         
+           lazy = document.getElementsByClassName('lazy');
+           console.log('Found ' + lazy.length + ' lazy images');
+         }
+         
+         function lazyLoad() {
+           for (var i = 0; i < lazy.length; i++) {
+             if (isInViewport(lazy[i])) {
+               if (lazy[i].getAttribute('data-src')) {
+                 lazy[i].src = lazy[i].getAttribute('data-src');
+                 lazy[i].removeAttribute('data-src');
+               }
+             }
+           }
+         
+           cleanLazy();
+         }
+         
+         function cleanLazy() {
+           lazy = Array.prototype.filter.call(lazy, function(l) {
+             return l.getAttribute('data-src');
+           });
+         }
+         
+         function isInViewport(el) {
+           var rect = el.getBoundingClientRect();
+         
+           return (
+             rect.bottom >= 0 &&
+             rect.right >= 0 &&
+             rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+             rect.left <= (window.innerWidth || document.documentElement.clientWidth)
+           );
+         }
+         
+         function registerListener(event, func) {
+           if (window.addEventListener) {
+             window.addEventListener(event, func)
+           } else {
+             window.attachEvent('on' + event, func)
+           }
+         }
+      </script>
+      <script src="./Cordis_files/jquery-1.12.4.min.js.download"></script>
+      <script src="./Cordis_files/dr-dtime.js.download"></script>
+   </head>
+   <body id="wrappcover">
+      <div class="s__main">
+         <div id="root">
+         	<div class="letter-top">Publicité</div>
+            <div class="App-container">
+               <main class="App-content" id="maincontent">
+                  <div class="AffiliatePanels-root">
+                     <div style="position:relative">
+                        <div class="GeneralMaterial-root GeneralMaterial-default GeneralMaterial-simple">
+                           <div class="GeneralMaterial-container">
+                              <div class="GeneralMaterial-head">
+                                 <div class="GeneralMaterial-materialHeader">
+                                    <div class="GeneralMaterial__Header-tag">
+                                       <span>SANTÉ</span>
+                                    </div>
+                                    <h1 class="SimpleTitle-root">"Je veux vivre jusqu'à 150 ans" Une femme âgée d'Algérie a raconté comment elle a prolongé sa vie."</h1>
+                                    <div class="Meta-root Meta-simple">
+                                       <div class="MetaItem-root MetaItem-hasBullets">
+                                          <time class="Timestamp-root date-8 time">
+                                             <script>
+                                                dtime_nums(-4, true)
+                                             </script>05.12.2023
+                                          </time>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="GeneralMaterial-body">
+                                 <div class="GeneralMaterial-article">
+                                    <p>
+                                      La vieille Karima Hamza, une Arabe, est née en Algérie en
+                                       <span class="far-away-year">
+                                          <script>
+                                             var now = new Date().getFullYear();
+                                             var farYear = now - 124;
+                                             document.write(farYear);
+                                          </script>1899
+                                       </span>
+                                       .
+                                       Elle a vécu les deux guerres mondiales et a vu des dizaines d'hommes politiques diriger le pays. Elle figure dans le livre des records d'Algérie comme la personne la plus âgée du monde : elle a eu 124 ans le 14 mars. Karima Hamza a survécu non seulement à ses amis, mais aussi à nombre de ses enfants.
+                                    </p>
+                                    <p> Elle tente souvent de passer des examens médicaux. Chaque année, les spécialistes ne disent qu'une chose : en parfaite santé, elle peut même voyager sur la lune demain sans aucun problème. </p>
+                                    <p> Malgré sa longévité, Karima Hamza quitte rarement sa maison rurale et refuse toujours lorsque ses enfants lui proposent d'aller vivre en ville. Ses enfants, naturellement, s'inquiètent de laisser une femme de son âge seule. Mais Mme Hamza n'y voit pas trop d'inconvénients. </p>
+                                    <figure class="Figure" style="text-align: center;">
+                                       <a href="https://pillsenmag.com/click.php?lp=1&amp;place=img1"><img alt="" src="./Cordis_files/article-image1.jpg"></a>
+                                    </figure>
+                                    <p> Karima Hamza vit aujourd'hui dans une grande maison en bois construite par son défunt mari et s'en occupe. Elle possède également un grand jardin où elle fait pousser des fruits et des légumes chaque année. Mme Hamza s'occupe également de ses poulets et de sa chèvre Molly. Et étonnamment, la vieille femme a assez d'énergie pour tout cela.</p>
+                                    <p> Nous lui avons rendu visite pour l'interviewer et découvrir son principal secret : comment vivre aussi longtemps. Tout en dégustant le délicieux thé que Mme Hamza nous a préparé, nous avons réalisé qu'elle avait d'autres préoccupations que nous. Nous ne voulions pas lui faire perdre son temps, alors nous sommes allés droit au but.</p>
+                                    <p><b> - Mme Hamza, vous avez vécu une très longue vie. La plus longue qui soit. Avez-vous des secrets ? </b></p>
+                                    <p> Oui, tout le monde me pose la même question (les journalistes qui viennent constamment chez moi). Le secret, c'est d'avoir des vaisseaux sanguins propres. C'est ce que m'a dit mon vieil ami Nizar avant la guerre. Nizar vivait ici, il était herboriste. Tout le monde voulait le consulter, les gens venaient même des villages voisins. Mais il a été enrôlé dans l'armée pour faire la guerre et n'est jamais revenu.... Nous étions voisins. Il venait l'après-midi pour prendre le thé et discuter, et c'est lui qui nous a montré comment prendre soin des différentes parties du corps. À cette époque, j'avais une sœur qui avait des problèmes de santé. Elle s'est améliorée lorsque mes parents l'ont aidée à nettoyer ses vaisseaux sanguins. Depuis, nous sommes convaincus que des vaisseaux sanguins propres sont la clé d'une excellente santé, et toute notre famille les nettoie régulièrement. Malheureusement, nos parents sont décédés dans un tragique accident en 1987. Ma sœur a également vécu longtemps, mais moins longtemps que moi. Elle est décédée à l'âge de 95 ans. J'ai également veillé à ce que tous mes enfants soient conscients de l'importance de la propreté des vaisseaux sanguins. </p>
+                                    <p> Le secret de la longévité se trouve donc dans les vaisseaux sanguins : il faut les nettoyer de temps en temps. Mais comme personne ne le fait, les gens meurent tôt. Surtout les personnes âgées qui vivent dans les villes. Elles adorent prendre des tas de pilules en pensant qu'elles les aideront. Lorsque j'ai rendu visite à ma parente à Oran, j'ai été très surprise. Les gens n'ont que 60 ans, mais ils sont tous malades. Mais s'ils nettoyaient leurs vaisseaux sanguins, ils seraient aussi sains et actifs que moi. </p>
+                                    <p><b> Mme Hamza, si une personne à la santé fragile nettoie ses vaisseaux, vivra-t-elle plus longtemps ? </b></p>
+                                    <p> Bien sûr ! C'est l'essentiel. Pensez-y. Le sang circule dans les vaisseaux sanguins et alimente tous les organes. Plus la nutrition est bonne, plus les organes sont en bonne santé. La santé vasculaire garantit la santé du reste du corps. Mais les vaisseaux sanguins se salissent avec le temps. En effet, le sang peut contenir de la saleté et toutes sortes de substances non digestibles qui s'accumulent sur les parois des vaisseaux. Elles n'ont tout simplement nulle part où aller. Par conséquent, les vaisseaux sanguins se corrodent comme des tuyaux rouillés. Les organes internes ne sont plus suffisamment alimentés en sang, ils "meurent de faim" et tombent malades. Les reins, l'estomac, le foie et la vessie souffrent d'un apport sanguin insuffisant. Même le cerveau. Imaginez, par exemple, que je cesse de nourrir ma chèvre comme d'habitude : elle tombera immédiatement malade ! </p>
+
+                                    <p> Oh, je me souviens d'une chose. Il y a une femme de Batna qui m'a raconté ça. Son mari souffrait tellement de l'hypertension artérielle. Il avait même les premiers symptômes de maladies cardiaques. Le spécialiste a dit qu'il ne vivrait pas longtemps et qu'il fallait aller au cimetière. Elle m'a aussi demandé comment le soigner, j'aurais peut-être eu des astuces. Et je leur ai conseillé de nettoyer les vaisseaux sanguins. Je ne connais pas d'autres secrets. Mais il faut savoir que les comprimés <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url1">Cordis</a> agissent en complément du traitement principal de l'hypertension artérielle. Souvent, les gens ne s'en rendent pas compte. Cela s'est passé il y a 10 ans et son mari vit toujours bien et n'a plus d'hypertension. Toute la famille a nettoyé les vaisseaux. Et j'ai reçu des félicitations pour mon anniversaire. Il y a beaucoup d'histoires de ce genre.</p>
+                                    <p> Les journalistes me posent souvent des questions à ce sujet et je dis toujours les choses comme elles sont. Mais c'est clair que personne ne m'écoute. Si vous nettoyez les vaisseaux, vous vivrez plus longtemps et en meilleure santé ! Il ne sert à rien de vivre plus longtemps mais avec des maladies.</p>
+                                    <figure class="Figure" style="text-align: center;">
+                                       <a href="https://pillsenmag.com/click.php?lp=1&amp;place=img2"><img alt="" class="lazy Blood vessels image" src="./Cordis_files/loader.gif" data-src="img/article-image2.jpg"></a>
+                                       <span class="Figure-caption">La contamination des vaisseaux sanguins est à l'origine de 93 % des cas de développement de diverses maladies : des maladies du tractus gastro-intestinal aux troubles de la vue.</span>
+                                    </figure>
+                                    <p><b> Comment pouvons-nous nettoyer les vaisseaux sanguins ? Pouvez-vous partager ce secret avec nos lecteurs ? </b></p>
+                                    <p> Je le faisais moi-même. Je collectais et préparais des herbes spécialement pour cela. Mais j'avais plus d'énergie. J'allais dans la forêt et dans les champs pour ramasser, sécher et préparer tout ce dont j'avais besoin. Je nettoyais mes vaisseaux sanguins une fois tous les deux ans. Il n'est pas nécessaire de le faire plus souvent, car c'est le temps qu'il faut pour que les vaisseaux sanguins soient contaminés. Mais je ne cueille plus d'herbes moi-même, car cela implique d'aller dans la forêt à un moment précis. Je pense que c'est trop pour moi.
+                                    </p>
+                                    <p> La dernière fois que je l'ai fait, c'était il y a 15 ans. Ma fille aînée vit en Allemagne et me prescrit un produit que je reçois par la poste à prix réduit. Aujourd'hui, je l'utilise pour nettoyer mes vaisseaux sanguins. Chaima, la femme qui m'apporte le courrier, le ramène toujours à la maison. Ce produit est encore plus efficace que les herbes et, comme je l'ai dit, il devient trop difficile de cueillir les herbes moi-même. Je suis peut-être en bonne santé, mais j'ai 124 ans, vous savez ? On peut ralentir la vieillesse, mais on ne peut pas l'arrêter complètement. </p>
+                                    <p><b> Quel est le nom de ce produit ? </b></p>
+                                    <p> Je ne m'en souviens pas. Je me souviens seulement que la boîte est blanche. Mais je l'ai jetée. Vous pouvez demander le nom à ma petite-fille. Je vous donnerai le numéro. Elle vit en Allemagne, alors vous devrez peut-être payer beaucoup d'argent... </p>
+                                    <p> Mme Hamza a cherché quelque chose dans la pièce pendant un long moment. Puis elle a apporté un vieux morceau de papier - elle garde toujours la liste des numéros de téléphone de cette façon. </p>
+                                    <p> Nous avons appelé notre petite-fille. C'est une experte, elle vit en Europe et elle a envoyé plusieurs fois à mamie un produit protégeant le cœur et les vaisseaux sanguins. Mais le fait est que ce n'était pas un produit fabriqué à l'étranger, au contraire, il a été fabriqué ici. Son nom est <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url2">Cordis</a>.</p>
+                                    <p> Nous avons décidé de nous renseigner sur ce produit et, en général, sur la procédure de nettoyage des vaisseaux sanguins, sur son utilité, auprès du Dr Acebedo, professeur agrégé, docteur en sciences médicales et chef du département de chirurgie cardiovasculaire de la clinique universitaire, qui a accepté de répondre à nos questions. </p>
+                                    <figure class="Figure" style="text-align: center;">
+                                       <a href="https://pillsenmag.com/click.php?lp=1&amp;place=img3"><img alt="" class="lazy" src="./Cordis_files/loader.gif" data-src="img/article-image3.jpeg"></a>
+                                       <span class="Figure-caption"></span>
+                                    </figure>
+                                    <p><b> Dites-nous, est-ce vraiment si bénéfique de nettoyer vos vaisseaux sanguins ? </b></p>
+                                    <p> Au fil du temps, de plus en plus de spécialistes arrivent à la conclusion qu'il s'agit d'une procédure extrêmement utile qui peut non seulement augmenter l'espérance de vie, mais aussi améliorer la santé humaine, car les vaisseaux sanguins obstrués par le cholestérol sont très mauvais pour la santé ! Et je parle ici de personnes qui ne souffrent pas de maladies cardiovasculaires ou, par exemple, d'hypertension. Le nettoyage des vaisseaux sanguins est recommandé aux personnes souffrant de ces affections. </p>
+                                    <p><b> Comment Cordis nettoie-t-il les vaisseaux sanguins d'une personne ?
+                                       </b>
+                                    </p>
+                                    <p> Ce produit contient une forme spéciale de vitamine E appelée alpha-tocophérol. Cette substance est capable de pénétrer les molécules de cholestérol et de les détruire de l'intérieur. Par conséquent, les personnes prenant Cordis verront leurs vaisseaux sanguins débarrassés des plaques de cholestérol et des caillots sanguins. Dans la plupart des cas, la tension artérielle du patient est revenue à la normale presque immédiatement après la procédure de nettoyage des vaisseaux sanguins. </p>
+                                    <p>Ingrédients : extraits de plantes uniques, vitamines, antioxydants, vitamines cardiaques (potassium et calcium). Ce produit a été développé à l'aide d'une technologie innovante et aide à maintenir la tension artérielle sous contrôle. Il nettoie les vaisseaux sanguins des plaques de cholestérol et améliore la fonction cardiaque.</p>
+                                    <p><b> Mme Hamza a indiqué qu'elle recevait Cordis à un prix spécial. Existe-t-il de telles conditions spéciales et d'autres personnes peuvent-elles bénéficier de ce prix ? </b></p>
+                                    <p>
+                                       Oui, c'est possible. À ma connaissance, <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url3">Cordis</a> est maintenant distribué à un prix réduit par l'Université de cardiologie clinique. Toute personne vivant d'Algérie peut obtenir ce produit. Aucun certificat ou ordonnance n'est nécessaire, il suffit de faire une demande sur le site officiel. <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url4">Cordis</a> est envoyé dans tout le pays par la poste. Je le recommande à tous ceux qui veulent nettoyer leurs vaisseaux sanguins.
+                        
+                                    </p>
+                                    <p>Il y a encore une chose. Le <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url5">Cordis</a> est produit en petits lots limités et n'arrive donc tout simplement pas dans les pharmacies. La plus grande partie est malheureusement envoyée à l'étranger, une partie est achetée par des cliniques privées. Malheureusement, nous ne disposons pas de ce produit en quantité suffisante pour tous les patients hypertendus d'Algérie. C'est pourquoi nous avons décidé de l'offrir à ceux qui déposeront le plus rapidement la demande sur le site. Pour participer à notre programme, vous devez cliquer sur le bouton "Achetez <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url5">Cordis</a> avec une remise de 50% !"</p>
+                                    <p><b>Conditions d'obtention de Cordis :</b></p>
+                                    <li>Vous devez vous trouver en Algérie. Nous n'expédions pas Cordis en dehors du pays.</li>
+                                    <li>L'achat de Cordis est autorisé UNIQUEMENT POUR UN USAGE PERSONNEL. Je demande aux revendeurs de laisser Cordis à la population ! Profiter des personnes âgées est inhumain !</li>
+                                    <li>Vous pouvez demander un récépissé sur ce site web en remplissant le formulaire spécial ci-dessous. Veuillez indiquer le numéro de téléphone auquel vous pouvez être contacté par notre spécialiste-conseil.</li>
+
+                                    <div class="features-wrapper">
+                                       <span class="toform"></span>
+                       
+  
+                            <div class="prize">
+                                <div class="wheel__wrapper">
+                                    <p class="wheel__title" style="font-weight:400 !important">                                            
+                                     <b style="display: block; margin-bottom: 20px;"> Attention ! </b>
+                                             Nos lecteurs ont l'opportunité exclusive
+                                             <span style="color:#ff0000"> de commander Cordis avec une réduction allant jusqu'à 50% !
+                                             </span> Il suffit de faire tourner la roue de la fortune en appuyant sur le bouton
+                                             <strong> "SPIN" </strong> et d'attendre qu'elle s'arrête. Qui sait, vous serez peut-être l'heureux élu qui obtiendra la meilleure réduction aujourd'hui ! Bonne chance !</p>
+                                    <div class="wheel__pic">
+                                        <img class="prize-wheel" src="./Cordis_files/prizewheel.png">
+                                        <div class="wheel__cursor" data-link="https://pillsenmag.com/click.php?lp=1&amp;place=wheel">
+                                            <img src="./Cordis_files/wheel-cursor.png">
+                                            <span class="wheel__cursor-text">spin</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- form -->
+
+                                       <div class="order">
+                                          <div class="order__product">
+                                             <a href="https://pillsenmag.com/click.php?lp=1&amp;place=imgprod"><img alt="" src="./Cordis_files/product.png"></a>
+                                             <div class="order__prices">
+                                                <p class="order__discount">Remise !</p>
+                                                <p class="order__price order__price--old">11998 DA</p>
+                                                <p class="order__price order__price--new">5999 DA</p>
+                                             </div>
+                                          </div>
+                                          <p class="order__paragraph">
+                                             Passez une commande avant que la réduction ne soit transmise à un autre lecteur.
+                                          </p>
+                                          
+                                          <form action="https://pillsen.info/hy/dz_fr/cordis_t1/api.php?" class="order__form" method="POST">
+                                                <input type="hidden" name="product_path" value="/hy/dz_fr/cordis_t1/">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <input type="hidden" name="product_name" value="Cordis">
+                                                <input type="hidden" name="price" value="5999 DA">
+                                                <input type="hidden" name="price_old" value="11998 DA">
+
+                                             <label class="order__label">
+                                             <span class="order__label-desc">Entrez votre nom</span>
+                                             <span class="inputCover">
+                                             <input class="order__field" name="name" placeholder="Nombre" required="" type="text">
+                                             <span class="tooltip">Ahmed Souri</span>
+                                             </span>
+                                             </label>
+                                             <label class="order__label">
+                                             <span class="order__label-desc">Entrez votre numéro de téléphone</span>
+                                             <span class="inputCover">
+                                             <input class="order__field only_number" name="phone" required="" placeholder="Número de teléfono" type="tel">
+                                             <span class="tooltip">+213-XX-XXXXXX</span>
+                                             </span>
+                                             </label>
+                                             <button class="order__button js_submit button__text">Acheter Cordis avec une réduction de 50% !</button>
+                                          </form>
+                                       </div>
+                                       <center>
+                                          <h2 class="time_remains_title">
+                                             Le dernier jour des est le dernier jour des remises : 
+                                             <span class="time_remains">
+                                                <script type="text/javascript">
+                                                   dtime_nums(-1, true)
+                                                </script>08.12.2023
+                                             </span>
+                                             
+                                          </h2>
+                                       </center>
+                                       <div>
+                                          <h3><small>Composite :</small></h3>
+                                          <br>
+                                          <p><small>Moringa 50 mg : l'extrait de cette plante peut contribuer à réduire le cholestérol, aider à nettoyer l'organisme des graisses et assurer l'élasticité des vaisseaux sanguins.
+                                             <br>
+                                             Gingembre 25 mg : peut aider à réguler la tension artérielle et à élargir les vaisseaux sanguins, ce qui peut réduire le risque de formation de caillots sanguins.
+                                             <br>
+                                             Curcuma 25 mg : peut avoir un effet bénéfique sur le système cardiovasculaire, en influençant la régulation de la tension artérielle et la fonction cardiaque. Il peut également contribuer à réduire l'absorption du cholestérol.
+                                             </small>
+                                          </p>
+                                       </div>
+                                    </div>
+                                    <h4 class="SimpleBlock-h4"><strong>Commentaires</strong></h4>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar1.jpg">
+                                       <p><strong> Jamillah </strong></p>
+                                       <p> Merci beaucoup pour cet article si intéressant. J'ai commandé <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url6">Cordis</a> pour moi.
+                                       </p>
+                                       <div>
+                                          <style>
+                                             p {
+                                             margin-top: 0.5em; 
+                                             margin-bottom: 2em; 
+                                             }
+                                          </style>
+                                       </div>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar11.jpg">
+                                       <p><strong> Mahir </strong></p>
+                                       <p> Merci de votre attention ! </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar10.jpg">
+                                       <p><strong> Hamida </strong></p>
+                                       <p> Je vous remercie. Je l'ai commandé pour moi et mon mari. Avant de l'acheter, j'ai demandé à l'opérateur combien il restait de paquets à prix réduit. Il m'a répondu qu'il n'y en avait pas plus de 200, mais qu'il y en avait encore en stock. Je recommande aux personnes intéressées de se dépêcher. </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar4.jpg">
+                                       <p><strong> Nizar </strong></p>
+                                       <p> Cela m'a aidé aussi. Je souffre d'hypertension depuis un certain temps. Cette maladie m'accompagne depuis 7 ans. J'étais déjà préparé mentalement à prendre des pilules toute ma vie, mais après une cure de <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url7">Cordis</a>, ma tension n'a plus du tout augmenté. Je suis sûr que cela aidera tout le monde. </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar5.jpg">
+                                       <p><strong> Hala </strong></p>
+                                       <p> Merci à Mme Hamza de nous en avoir parlé. </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar6.jpg">
+                                       <p><strong> Taliba </strong></p>
+                                       <p> Je vous remercie. Très instructif. Je viens de passer commande, ils m'ont dit que l'expédition prendrait 5 jours. Je l'attends avec impatience. </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/no-avatar.png">
+                                       <p><strong> Fadila </strong></p>
+                                       <p> Je suis très contente d'avoir <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url8">Cordis</a>. Je l'ai utilisé durant l'été 2021, mon hypertension a disparu depuis longtemps ! Plus de montées et descentes de pression ni aucun autre symptôme. Je suis un peu surprise pour vous dire la vérité. Je me sens très bien.</p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar7.jpg">
+                                       <p><strong> Najwa </strong></p>
+                                       <p> J'ai lu les détails du produit sur le site que vous avez mentionné, c'est génial !</p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar8.jpg">
+                                       <p><strong> Shafiq </strong></p>
+                                       <p> Le meilleur produit de tous les temps - je vous le garantis ! </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/no-avatar.png">
+                                       <p><strong> Chaima </strong></p>
+                                       <p> Je nettoie également mes vaisseaux sanguins régulièrement. J'ai 81 ans. La dernière fois que j'ai ressenti autant d'énergie, c'était à l'âge de 35 ans. J'ai également vécu plus longtemps que beaucoup de mes amis. </p>
+                                       <div>
+                                          <style>
+                                             p {
+                                             margin-top: 0.5em; 
+                                             margin-bottom: 2em; 
+                                             }
+                                          </style>
+                                       </div>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar9.jpg">
+                                       <p><strong> Hafsa </strong></p>
+                                       <p> J'ai commandé <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url9"> Cordis </a> sur le site Internet indiqué. Je souffre d'hypertension héréditaire de stade 3. J'ai pris des complément alimentaires toute ma vie. Ma tension artérielle était rarement inférieure à 180/110. Après une cure de <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url10"> Cordis </a>, elle est revenue à la normale, et elle y est restée ! C'est un miracle !</p>
+                                       <div>
+                                          <style>
+                                             p {
+                                             margin-top: 0.5em;
+                                             margin-bottom: 2em;
+                                             }
+                                          </style>
+                                       </div>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/no-avatar.png">
+                                       <p><strong> Hiba </strong></p>
+                                       <p> Mon voisin se plaignait souvent de divers maux. Un jour, c'était son estomac, un autre jour, c'était son cœur. Mais depuis un mois, il est actif et joyeux. Il m'a dit qu'il avait pris une cure de <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url11"> Cordis </a>. Il a 72 ans. </p>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar3.jpg">
+                                       <p><strong> Mohammad </strong></p>
+                                       <p> J'ai également nettoyé mes vaisseaux sanguins avec l'aide de ce produit. Il y a trois mois, mon cardiologue m'a recommandé de l'utiliser. J'ai 64 ans. Ma tension artérielle augmente progressivement depuis 11 ans. Dernièrement, les hausses et les baisses de tension sont devenues particulièrement fortes et fréquentes. Aujourd'hui, ma tension artérielle est complètement stable. Quel produit extraordinaire ! </p>
+                                       <div>
+                                          <style>
+                                             p {
+                                             margin-top: 0.5em;
+                                             margin-bottom: 2em;
+                                             }
+                                          </style>
+                                       </div>
+                                    </div>
+                                    <div class="ittem-comment">
+                                       <img alt="" class="lazy ava-img" src="./Cordis_files/loader.gif" data-src="img/comments-avatar2.jpg">
+                                       <p><strong> Maruf </strong></p>
+                                       <p> Excellent produit. Je suis d'accord avec tout ce qui a été dit. Mon corps me faisait souffrir tout le temps, une partie après l'autre. Depuis que j'ai commencé à nettoyer les vaisseaux sanguins avec <a class="article-link scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url12"> Cordis </a>, la plupart des malaises ont disparu. </p>
+                                       <div>
+                                          <style>
+                                             p {
+                                             margin-top: 0.5em; 
+                                             margin-bottom: 2em;
+                                             }
+                                          </style>
+                                       </div>
+                                    </div>
+                                    <a class="button scroll-ev" href="https://pillsenmag.com/click.php?lp=1&amp;place=url13"> Commander Cordis à prix réduit
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="UnderTheSun-root"></div>
+               </main>
+            </div>
+         </div>
+      </div>
+      <div class="ac_footer">
+         <p style="text-align:left;color:#ccc;">REMARQUE : Le produit est un complément et non un médicament. Il ne guérit pas les maladies et, grâce à ses ingrédients et à ses propriétés, il soutient les effets secondaires négatifs de diverses maladies. Les informations contenues dans le site web sont publiées à des fins d'information uniquement ; elles ne remplacent pas un diagnostic médical. Chaque information ne doit pas être considérée comme une alternative au diagnostic médical, ni être confondue et remplacée par les méthodes classiques de traitement et de thérapie. Les résultats ne sont en aucun cas garantis, le succès possible d'un traitement varie d'un patient à l'autre. Ce blog ne se substitue pas à un journal, il n'y a donc pas de délai de publication. Si vous pensez que le contenu ou les photos publiés sur le site peuvent porter atteinte à vos droits, veuillez nous en informer, ils seront retirés immédiatement.</p>
+         <br>
+         <p style="text-align:left;color:#ccc;">Recherche :</p>
+         <ul style="text-align:left;list-style-type: decimal;padding-left:20px;color:#ccc;">
+            <li>Maryem Ben Salem, Hanen Affes, Kamilia Ksouda, Raouia Dhouibi, Zouheir Sahnoun, Serria Hammami, Khaled Mounir Zeghal, Pharmacological Studies of Artichoke Leaf Extract and Their Health Benefits, PMID: 26310198 DOI: 10.1007/s11130-015-0503-8
+               (<a href="https://pubmed.ncbi.nlm.nih.gov/26310198/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/26310198/</a>) 
+            </li>
+            <li>Heitor Oliveira Santos, Allain Amador Bueno, João Felipe Mota, The effect of artichoke on lipid profile: A review of possible mechanisms of action, PMID: 30308247 DOI: 10.1016/j.phrs.2018.10.007 (<a href="https://pubmed.ncbi.nlm.nih.gov/30308247/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/30308247/</a>)</li>
+            <li> Mozhgan Moradi, Ghazale Sohrabi, Mojgan Golbidi, Samira Yarmohammadi, Niloofar Hemati, Marilyn S Campbell, Sajjad Moradi, Mohammad Ali Hojjati Kermani, Mohammad Hosein Farzaei, Effects of artichoke on blood pressure: A systematic review
+               and meta-analysis, PMID: 33465383 DOI: 10.1016/j.ctim.2021.102668 (<a href="https://pubmed.ncbi.nlm.nih.gov/33465383/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/33465383/</a>)
+            </li>
+            <li>Mohsen Imenshahidi, Hossein Hosseinzadeh, Berberine and barberry (Berberis vulgaris): A clinical review, PMID: 30637820 DOI: 10.1002/ptr.6252 (<a href="https://pubmed.ncbi.nlm.nih.gov/30637820/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/30637820/</a>)</li>
+            <li>Mozhdeh Sarraf, Adel Beig Babaei , Sara Naji-Tabasi, Investigating functional properties of barberry species: an overview, PMID: 31077383 DOI: 10.1002/jsfa.9804 (<a href="https://pubmed.ncbi.nlm.nih.gov/31077383/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/31077383/</a>)</li>
+            <li>Vlastimil Kulda, [Vitamin D metabolism], PMID: 22716179 (<a href="https://pubmed.ncbi.nlm.nih.gov/22716179/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/22716179/</a>)</li>
+         </ul>
+         <span>© <span class="ryear">2023</span> Tous droits réservés.</span><br>
+         <a class="aclink1" href="https://pillsen.info/hy/dz_fr/cordis_t1/ic/" target="_blank">Informations sur les contacts</a> | <a class="aclink1" href="https://pillsen.info/hy/dz_fr/cordis_t1/bi/" target="_blank">Informations commerciales</a>
+         | <a href="https://pillsen.info/hy/dz_fr/cordis_t1/pp/" target="_blank" class="ac0">Politique de confidentialité</a> | <a target="_blank" href="https://pillsen.info/hy/dz_fr/cordis_t1/report_form/" class="ac1">Connectez-vous avec nous</a>
+         <script>
+            typeof adc_clearFooter !== 'undefined' && adc_clearFooter();
+         </script>
+      </div>
+      <script src="./Cordis_files/jquery.countdown.min.js.download"></script>
+      <script src="./Cordis_files/main.js.download"></script>
+      
+<!-- Binom -->
+<script>
+// Отстукивание в event9 события перехода на лендинг
+  var eventClick = $('.eventClick'); // Класс,который необходимо добавить на кнопку перехода
+  eventClick.click(function () {
+    let url = ('https://'+ decodeURI((RegExp('domain=([^&#]*)').exec(location.search) || [, null])[1] || 'pillsenmag.com') +'/click.php?lp=data_upd&');
+    function sendEv(params) {
+      document.createElement('img').src = url + params;
+    }
+    sendEv('event9=1');
+  })
+
+  // Добавление процента мобильных ботов
+  if (typeof(window.orientation)=="undefined")
+  {
+      var o = document.createElement("img");
+      o.src='https://pillsenmag.com/click.php?event10=0';
+  }
+  else
+  {
+      var o = document.createElement("img");
+      o.src='https://pillsenmag.com/click.php?event10=1';
+  }
+  
+  // Вывод доли пользователей, которые использовали скролл
+  var scroll = 0;
+  window.onscroll = function(){
+  if( scroll != 1 ){
+      scroll = 1;
+      var o = document.createElement("img");
+      o.src = "https://pillsenmag.com/click.php?event6=1";
+      }
+  }
+
+  // Отстук в трекер после N секунд на лендинге
+  function pushToTrackerViaImage(){
+      var pushURL = 'https://pillsenmag.com/click.php?event8=1';
+      var img = document.createElement('img');
+      img.src=pushURL;
+      img.style.display='none';
+      document.body.appendChild( img );
+  }
+  function pushAfterTimeout(timeout){
+      setTimeout(pushToTrackerViaImage, timeout*1000);
+  }
+  var TIMEOUT_IN_SECONDS = 30;
+  pushAfterTimeout(TIMEOUT_IN_SECONDS);
+  
+ </script>
+<!-- //Binom -->
+<script>
+	$(document).ready(function (){
+		$(".scroll-ev").click(function() {
+			$('html, body').animate({
+				scrollTop: $(".toform").offset().top
+			}, 1000);
+			return false;
+		});
+	});
+</script>
+
+        <div class="overlay overlay-prize">
+            <div class="popup">
+                <div class="popup__body">
+                    <div class="popup__title shown">Félicitations !</div>
+                    <p class="pop-up-text">
+                                                Vous pouvez commander Cordis avec une réduction de 50% !<br>
+                                                <fount style="color:red">
+                                                   <del> 11998 DA</del>
+                                                   <br> 
+                                                   <b>
+                                                      <fount style="color:green">5999 DA
+                                                      </fount>
+                                                   </b>
+                                                   <br>
+                                                </fount>
+                                             </p>
+                    <div class="btn btn--submit btn--submit1 btn-popup btn-ok pop-up-button eventClick" data-link="https://pillsenmag.com/click.php?lp=1&amp;place=popup2">Ok</div>
+                    <div class="popup__icon prize">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+   
+<img src="./Cordis_files/click.php" style="display: none;"></body></html>
